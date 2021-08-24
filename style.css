@@ -1,0 +1,61 @@
+
+            h1 {
+                color: #0000EF;
+                font-style: italic;
+                font-family: sans-serif;
+                margin-left: 30px;
+
+            }
+
+            * {
+                border: solid;
+            }
+        .header{
+            background-color: coral;
+            display:flex;
+            justify-content: space-between;
+            font-style: bold;
+        }
+        .menu{
+            background-color:#FFFFDD;
+            font-family:Arial, Helvetica, sans-serif;
+            margin-right: 30px;
+            padding:10px;
+        }
+        .games{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+body{
+    background-color:#00ADFF;
+}
+
+.menu a{
+    margin-left: 10px;
+}
+
+.item{
+    position:relative
+}
+
+.item p{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-30%);
+    opacity:0
+}
+
+.item:hover p{
+    opacity:1;
+}
+
+.item:hover img{
+    opacity:0.33
+}
